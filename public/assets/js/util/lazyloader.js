@@ -6,7 +6,7 @@
  * @example
  *   <element src="" data-src="/url/" data-srcset="..." />
  */
-(function (ready) {
+(function (ready) { // incantation that equals to jQuery.ready (wait for the document to be ready before we do anything)
   if (document.readyState === "complete" || document.readyState === "interactive") {
     ready();
   } else {

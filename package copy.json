@@ -10,8 +10,10 @@
   },
   "config": {
     "server-port": 3000,
-    "server-delay": 50,
-    "server-compress": true
+    // "server-delay": 200,
+    "server-delay": 50, // simulating the CDN, improving infrustructure with CDN (putting our infrastructure so much closer to our users)
+    // "server-compress": false
+    "server-compress": true // we are going to gzip our content before we send it over the wire
   },
   "repository": {
     "type": "git",
